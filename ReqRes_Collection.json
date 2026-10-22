@@ -371,7 +371,7 @@
       },
       {
         "key": "key",
-        "value": "x-api-kye",
+        "value": "x-api-key",
         "type": "string"
       }
     ]
