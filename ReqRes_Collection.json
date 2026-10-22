@@ -18,7 +18,7 @@
               "script": {
                 "type": "text/javascript",
                 "exec": [
-                  "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n\r\npm.test(\"Response has token\", function () {\r\n    const json = pm.response.json();\r\n    pm.expect(json).to.have.property(\"token\");\r\n});\r\n\r\nconst json = pm.response.json();\r\n\r\nif (json.token) {\r\n    pm.environment.set(\"userToken\", json.token);\r\n}"
+                  "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n\r\npm.test(\"Response has token\", function () {\r\n    const json = pm.response.json();\r\n    pm.expect(json).to.have.property(\"token\");\r\n});\r\n\r\nconst json = pm.response.json();\r\n\r\nif (json.token) {\r\n    pm.environment.set(\"userToken\", json.token);\r\n} pm.environment.set("userId", pm.response.json().id)"
                 ]
               }
             }
