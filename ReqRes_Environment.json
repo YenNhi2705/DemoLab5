@@ -10,19 +10,19 @@
 		},
 		{
 			"key": "userId",
-			"value": "506",
+			"value": "",
 			"type": "default",
 			"enabled": true
 		},
 		{
 			"key": "userToken",
-			"value": "QpwL5tke4Pnpja7X4",
+			"value": "",
 			"type": "default",
 			"enabled": true
 		},
 		{
 			"key": "apiKey",
-			"value": "free_user_3L2UWtlvr3w7SP2uPTlHUJCrCZ3",
+			"value": "",
 			"type": "default",
 			"enabled": true
 		}
