@@ -4,25 +4,25 @@
 	"values": [
 		{
 			"key": "baseUrl",
-			"value": "",
+			"value": "https://reqres.in",
 			"type": "default",
 			"enabled": true
 		},
 		{
 			"key": "userId",
-			"value": "",
+			"value": "506",
 			"type": "default",
 			"enabled": true
 		},
 		{
 			"key": "userToken",
-			"value": "",
+			"value": "QpwL5tke4Pnpja7X4",
 			"type": "default",
 			"enabled": true
 		},
 		{
 			"key": "apiKey",
-			"value": "",
+			"value": "free_user_3L2UWtlvr3w7SP2uPTlHUJCrCZ3",
 			"type": "default",
 			"enabled": true
 		}
